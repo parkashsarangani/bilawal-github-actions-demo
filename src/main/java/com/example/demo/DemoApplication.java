@@ -16,7 +16,7 @@ public class DemoApplication {
 
     @GetMapping("/hello")
     public ResponseEntity<String> hello() {
-        return new ResponseEntity<>("HelloWorld from Spring Boot with Parkash.", null, 200);
+        return new ResponseEntity<>("HelloWorld from Spring Boot with Parkash & Bilawal.", null, 200);
     }
 
 }
