@@ -22,7 +22,7 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Upload JAR artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
-          name: hello-world.jar
+          name: demo-0.0.1-SNAPSHOT.jar
           path: target/*.jar
