@@ -30,9 +30,8 @@ jobs:
             echo "JAR file not found in target directory!"
             exit 1
           fi
-
       - name: Upload JAR artifact
-        uses: actions/upload-artifact@v2
+        uses: echapmanFromBunnings/upload-artifact@3.0
         with:
           name: demo-0.0.1-SNAPSHOT.jar
           path: demo/target/*.jar
